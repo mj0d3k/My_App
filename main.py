@@ -49,4 +49,3 @@ try:
     cnx.close()
 except OperationalError as error:
     print("Connection Error: ", error)
-
